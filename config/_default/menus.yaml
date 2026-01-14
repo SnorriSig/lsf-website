@@ -3,18 +3,12 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: /#top
+  - name: Um lögstofuna
+    url: '#about'
     weight: 10
-  - name: Features
-    url: /#features
+  - name: Hafa samband
+    url: '#contact'
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: Bóka fund
+    url: '#booking'
     weight: 30
-  - name: Resources
-    weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
